@@ -1,0 +1,10 @@
+_id: fld_920ed9b3380b4bdfa8a9b2a785cd1b72
+type: RequestGroup
+parentId: fld_37c0915926544c3481c435bd67312b1b
+modified: 1678143249676
+created: 1678143228972
+name: Produto
+description: Gestão dos produtos de um usuário
+environment: {}
+environmentPropertyOrder: null
+metaSortKey: -1678142564223

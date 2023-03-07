@@ -1,0 +1,31 @@
+_id: req_ec73cfbcca0d4743a1e1b9a205218585
+type: Request
+parentId: fld_515d261d56de43f685781fe8d6b2850f
+modified: 1678202430478
+created: 1678202391616
+url: "{{ _.base_url }}/v2/produtos/150964/componentes"
+name: Buscar dados dos componentes de um produto
+description: ""
+method: GET
+body:
+  mimeType: application/json
+  text: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_8ff4aeb74fc549e69bb7264e6a075558
+  - id: pair_881931b41b644f5bbe4f8733be24e00f
+    name: token
+    value: "{% response 'body', 'req_5602e5c157c44220b32533a729005646',
+      'b64::JFtkYXRhXVt0b2tlbl0=::46b', 'never', 60 %}"
+    description: ""
+authentication: {}
+metaSortKey: -1678142561069.75
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

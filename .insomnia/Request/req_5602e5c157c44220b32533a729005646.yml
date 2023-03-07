@@ -1,0 +1,29 @@
+_id: req_5602e5c157c44220b32533a729005646
+type: Request
+parentId: fld_874357560ce642ddbd597eef6cf06d4c
+modified: 1678143815907
+created: 1678142564298
+url: "{{ _.base_url }}/v2/login"
+name: Obter token do usuário
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "usuarioLogin": "Dennys",
+      "usuarioSenha": "Dennys"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1678142564260.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

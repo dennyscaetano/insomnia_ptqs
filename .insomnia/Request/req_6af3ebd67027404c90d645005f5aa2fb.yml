@@ -1,0 +1,30 @@
+_id: req_6af3ebd67027404c90d645005f5aa2fb
+type: Request
+parentId: fld_920ed9b3380b4bdfa8a9b2a785cd1b72
+modified: 1678201715618
+created: 1678201700047
+url: "{{ _.base_url }}/v2/produtos/150963"
+name: Remover um produto
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers:
+  - id: pair_d1886a3ca839493e920ae5899d7f6f56
+    name: token
+    value: "{% response 'body', 'req_5602e5c157c44220b32533a729005646',
+      'b64::JFtkYXRhXVt0b2tlbl0=::46b', 'never', 60 %}"
+    description: ""
+  - id: pair_32baa82a2c53462bb8e028d46a88f676
+    name: Content-Type
+    value: application/json
+    description: ""
+authentication: {}
+metaSortKey: -1678142748012.125
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

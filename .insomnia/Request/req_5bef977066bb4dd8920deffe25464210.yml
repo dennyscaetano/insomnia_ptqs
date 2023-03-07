@@ -1,0 +1,30 @@
+_id: req_5bef977066bb4dd8920deffe25464210
+type: Request
+parentId: fld_874357560ce642ddbd597eef6cf06d4c
+modified: 1678143773204
+created: 1678142847298
+url: "{{ _.base_url }}/v2/usuarios"
+name: Adicionar um novo usuário
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "usuarioNome": "Dennys",
+      "usuarioLogin": "Dennys",
+      "usuarioSenha": "Dennys"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1678142564210.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

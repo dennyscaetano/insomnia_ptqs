@@ -1,0 +1,30 @@
+_id: req_bac0d03808564ebc9af7c3a0d5d08ac0
+type: Request
+parentId: fld_874357560ce642ddbd597eef6cf06d4c
+modified: 1678198457835
+created: 1678142920537
+url: "{{ _.base_url }}/v2/dados"
+name: Limpar todos os dados do usuário
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers:
+  - id: pair_d1886a3ca839493e920ae5899d7f6f56
+    name: token
+    value: "{% response 'body', 'req_5602e5c157c44220b32533a729005646',
+      'b64::JFtkYXRhXVt0b2tlbl0=::46b', 'never', 60 %}"
+    description: ""
+  - id: pair_32baa82a2c53462bb8e028d46a88f676
+    name: Content-Type
+    value: application/json
+    description: ""
+authentication: {}
+metaSortKey: -1678142564160.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

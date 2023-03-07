@@ -1,0 +1,14 @@
+_id: env_5d77e8c11b6d4fa9964022d2ba68a780
+type: Environment
+parentId: env_0d36826a35e80a984361c9cb70f08624798a3a9f
+modified: 1678195746852
+created: 1678142627160
+name: lojinha
+data:
+  base_url: http://165.227.93.41/lojinha
+dataPropertyOrder:
+  "&":
+    - base_url
+color: null
+isPrivate: false
+metaSortKey: 1678142627160

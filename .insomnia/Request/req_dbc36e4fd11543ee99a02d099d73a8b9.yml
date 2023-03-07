@@ -1,0 +1,30 @@
+_id: req_dbc36e4fd11543ee99a02d099d73a8b9
+type: Request
+parentId: fld_515d261d56de43f685781fe8d6b2850f
+modified: 1678202664456
+created: 1678202647456
+url: "{{ _.base_url }}/v2/produtos/150964/componentes/170040"
+name: Remover um componente do produto
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers:
+  - id: pair_d1886a3ca839493e920ae5899d7f6f56
+    name: token
+    value: "{% response 'body', 'req_5602e5c157c44220b32533a729005646',
+      'b64::JFtkYXRhXVt0b2tlbl0=::46b', 'never', 60 %}"
+    description: ""
+  - id: pair_32baa82a2c53462bb8e028d46a88f676
+    name: Content-Type
+    value: application/json
+    description: ""
+authentication: {}
+metaSortKey: -1678142560919.75
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

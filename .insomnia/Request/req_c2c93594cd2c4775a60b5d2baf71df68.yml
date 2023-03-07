@@ -1,0 +1,34 @@
+_id: req_c2c93594cd2c4775a60b5d2baf71df68
+type: Request
+parentId: fld_515d261d56de43f685781fe8d6b2850f
+modified: 1678202305986
+created: 1678202074114
+url: "{{ _.base_url }}/v2/produtos/150964/componentes"
+name: " Adicionar um novo componente ao produto"
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+       "componenteNome": "Componente Dennys 6",
+       "componenteQuantidade": 1
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_66fbb2915e094e97a00de5a4a7986268
+  - name: token
+    value: "{% response 'body', 'req_5602e5c157c44220b32533a729005646',
+      'b64::JFtkYXRhXVt0b2tlbl0=::46b', 'never', 60 %}"
+    id: pair_3ddfe8951aab4803808fad9980345132
+authentication: {}
+metaSortKey: -1678142561119.75
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

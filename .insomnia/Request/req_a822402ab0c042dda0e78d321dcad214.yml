@@ -1,0 +1,52 @@
+_id: req_a822402ab0c042dda0e78d321dcad214
+type: Request
+parentId: fld_920ed9b3380b4bdfa8a9b2a785cd1b72
+modified: 1678201998652
+created: 1678201632594
+url: "{{ _.base_url }}/v2/produtos/150964"
+name: Alterar informações de um produto
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "produtoNome": "Produto Dennys 1 Alterado",
+      "produtoValor": 1,
+      "produtoCores": [
+        "Branco"
+      ],
+      "produtoUrlMock": "Teste",
+      "componentes": [
+        {
+          "componenteNome": "Componente Dennys 1 Alterado",
+          "componenteQuantidade": 1
+        },
+    		{
+          "componenteNome": "Componente Dennys 2 Alterado",
+          "componenteQuantidade": 1
+        },
+    		{
+          "componenteNome": "Componente Dennys 3 Alterado",
+          "componenteQuantidade": 1
+        }
+      ]
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_66fbb2915e094e97a00de5a4a7986268
+  - name: token
+    value: "{% response 'body', 'req_5602e5c157c44220b32533a729005646',
+      'b64::JFtkYXRhXVt0b2tlbl0=::46b', 'never', 60 %}"
+    id: pair_3ddfe8951aab4803808fad9980345132
+authentication: {}
+metaSortKey: -1678142748062.125
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
